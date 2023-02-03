@@ -6,4 +6,4 @@ WORKDIR /pyton_app_dockerize
 
 COPY . /pyton_app_dockerize/
 
-CMD [ "PYTHON3", "main.py" ]
+CMD [ "python3", "main.py" ]
