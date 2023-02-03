@@ -1,6 +1,7 @@
 FROM python:latest
 
 RUN apt-get update
+RUN pip install requests
 
 WORKDIR /pyton_app_dockerize
 
